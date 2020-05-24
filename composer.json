@@ -1,21 +1,14 @@
 {
   "name": "itantik/nette-cq-dispatcher",
-  "description": "Nette extension for Command Query Dispatcher",
+  "description": "Nette extension for itantik/cq-dispatcher",
   "keywords": [],
   "type": "library",
   "license": [
 	"MIT"
   ],
-  "repositories": [
-	{
-	  "type": "vcs",
-	  "url": "https://github.com/itantik/cq-dispatcher",
-	  "no-api": true
-	}
-  ],
   "require": {
 	"php": ">= 7.2",
-	"itantik/cq-dispatcher": "*",
+	"itantik/cq-dispatcher": "^0.5",
 	"nette/di": "^v3.0"
   },
   "require-dev": {
