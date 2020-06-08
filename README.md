@@ -16,7 +16,7 @@ Register the extension in Nette configuration file.
 
 ```yaml
 extensions:
-	cqdispatcher: Itantik\CQDispatcher\Bridges\Nette\CQDispatcherExtension
+    cqdispatcher: Itantik\CQDispatcher\Bridges\Nette\CQDispatcherExtension
 ```
 
 No additional settings are required. By default, CQ Dispatcher uses Nette DI Container. With additional configurations you can change default settings.
@@ -27,8 +27,8 @@ Create an adapter to your DI container and register it in the configuration file
 
 ```yaml
 cqdispatcher:
-	# default DI container
-	container: Itantik\CQDispatcher\Adapters\NetteDIContainer
+    # default DI container
+    container: Itantik\CQDispatcher\Adapters\NetteDIContainer
 ```
 
 ### Change handler providers
@@ -39,9 +39,9 @@ Providers have to implement `Itantik\CQDispatcher\Command\ICommandHandlerProvide
 
 ```yaml
 cqdispatcher:
-	# default providers
-	commandHandlerProvider: Itantik\CQDispatcher\Command\DiCommandHandlerProvider
-	queryHandlerProvider: Itantik\CQDispatcher\Query\DiQueryHandlerProvider
+    # default providers
+    commandHandlerProvider: Itantik\CQDispatcher\Command\DiCommandHandlerProvider
+    queryHandlerProvider: Itantik\CQDispatcher\Query\DiQueryHandlerProvider
 ```
 
 ## Requirements
